@@ -15,13 +15,13 @@ var userStates = make(map[int64]string)
 
 func main() {
 	// Создаем бота
-	bot, err := tgbotapi.NewBotAPI("7543227307:AAGYpAkSZofJDLv5SIKIm2nETeLO0cxwTzw")
+	bot, err := tgbotapi.NewBotAPI("45555555")
 	if err != nil {
 		log.Fatal(err)
 	}
 	bot.Debug = true
 
-	pocketClient, err := pocket.NewClient("111953-4f0a374f95750a63cab5a5e")
+	pocketClient, err := pocket.NewClient("5555e")
 	if err != nil {
 		log.Fatal(err)
 	}
